@@ -1,0 +1,53 @@
+html, body {}
+
+#jumbo {
+	height: 100%;
+	background: url("../images/code.jpg");
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.main_page {
+	padding:200px 0px 200px 0px;
+	color: #ffffff;
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  top: 50px;
+  margin-bottom: 85px;
+  opacity: 0;
+  transition: all 0.5s ease-out 0.5s;
+  transform: translateY(-40px);
+}
+
+.main.fadeIn {
+  opacity: 1;
+  transform: translateY(0);
+ }
+
+.about_me {
+	background: #708090;
+}
+
+.about_me-text {
+	color: #ffffff
+}
+
+.myImage {
+	margin-top: 50px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.skills_img {
+	height: 100px;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{ 
+	background: #fff !important; 
+}
