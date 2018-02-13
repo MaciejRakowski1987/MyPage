@@ -1,45 +1,40 @@
 ---
 title: Portfolio
 ---
-<!DOCTYPE html>
-<head>
- <meta charset="utf-8">
- <link href="stylesheets/stylesheet.css" type="text/css" rel="stylesheet">
- <title>Portfolio</title>
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>
-  <script src="javascripts/script.js"></script>
-</head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
 
-        <a href="" class="navbar-brand">Main Page</a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-
-      <a href="" class="btn btn-warning navbar-btn navbar-right">Download CV</a>
-        <ul class="nav navbar-nav">
-          <li><a href="#about_me">About Me</a>
-          <li><a href="#skills">Skills</a>
-          <li><a href="#my_proje">My Projects</a>
-          <li><a href="#contact">Contact</a>
-        </ul>
-      </div>
+  <nav>
+    <button id="navBar" class="nav hamburger hamburger--arrowalt-r" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <div id="sidebar" class="sidebar">
+      <ul class="mobileNav__nav">
+        <li class="mobileNav__nav-item mobileNav__nav-item--menu">
+          Menu
+        </li>
+        <li>
+          <a class="mobileNav__nav-item" href="#stage">Start</a>
+        </li>
+        <li>
+          <a class="mobileNav__nav-item" href="#about_me">about me</a>
+        </li>
+        <li>
+          <a class="mobileNav__nav-item" href="#skills">skills</a>
+        </li>
+        <li>
+          <a class="mobileNav__nav-item" href="#projects">projects</a>
+        </li>
+        <li>
+          <a class="mobileNav__nav-item" href="#contact">contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
+
+
   <div id="fullpage">
     <section class="section firstPage">
       <div class="jumbotron" id="jumbo">
@@ -91,7 +86,7 @@ title: Portfolio
                 <img class="skills_img" src="images/javascript.svg" alt="javascript">
               </div>
               <h4 class="service-heading">JavaScript</h4>
-              <p class="text-muted"> Basic understanding of vanilla JavaScript</p>
+              <p class="text-muted"> Basic understanding of vanilla JavaScript.</p>
             </div>
           </div>
           <div class="row text-center">
@@ -115,7 +110,7 @@ title: Portfolio
                 <img class="skills_img" src="images/bootstrap.svg" alt="bootstrap">
               </div>
               <h4 class="service-heading">Bootstrap</h4>
-              <p class="text-muted"> Advanced knowledge of most features the most popular HTML, CSS and JS framework offers rigt now.</p>
+              <p class="text-muted"> Knowledge of most features the most popular HTML, CSS and JS framework offers rigt now.</p>
             </div>
           </div>
           <div class="row text-center justify-content-center">

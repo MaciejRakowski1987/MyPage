@@ -1,5 +1,58 @@
 html, body {}
 
+
+
+.nav {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  }
+
+.nav__logo {
+  width: 50px;
+  height: 50px;
+  }
+
+
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 410px;
+  transform: translateX(410px);
+  transition: transform 0.4s ease;
+  background: rgba(255,255,255,0.9);
+  z-index: 1;
+  box-shadow: -1px 0px 3px rgba(0,0,0,0.15);
+}
+
+.sidebar--visible {
+  transform: translateX(0);
+}
+
+.sidebar__closeButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #909495;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 #jumbo {
 	height: 100%;
 	background: url("../images/code.jpg");
